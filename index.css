@@ -1,0 +1,70 @@
+.example-button {
+  background-color: #fff;
+  color: #b3b3b3;
+  border: 2.5px solid #b3b3b3;
+  padding: 10px 20px;
+  margin: 0 auto;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all 0.18s ease;
+}
+.example-button svg {
+  transform: scale(0.8);
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 5px;
+}
+.example-button use {
+  fill: #b3b3b3;
+  transition: fill 0.18s ease;
+}
+.example-button:hover {
+  color: #6f3bff;
+  border-color: #6f3bff;
+}
+.example-button:hover use {
+  fill: #6f3bff;
+}
+
+.card-container {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin: 40px auto;
+  width: 350px;
+  height: auto;
+  border: 3px solid transparent;
+  -o-border-image: linear-gradient(45deg, rgb(45, 70, 253) 0%, rgb(131, 34, 195) 100%) 30 stretch;
+     border-image: linear-gradient(45deg, rgb(45, 70, 253) 0%, rgb(131, 34, 195) 100%) 30 stretch;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 1.2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  background-color: #c0dbff;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=index.css.map */
