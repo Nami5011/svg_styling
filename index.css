@@ -13,9 +13,6 @@
 }
 .example-button svg {
   transform: scale(0.8);
-  pointer-events: none;
-  -o-object-fit: cover;
-     object-fit: cover;
   margin-left: 5px;
 }
 .example-button use {

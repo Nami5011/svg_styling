@@ -12,8 +12,6 @@
   transition: all 0.18s ease;
   svg {
     transform: scale(0.8);
-    pointer-events: none;
-    object-fit: cover;
     margin-left: 5px;
   }
   use {
